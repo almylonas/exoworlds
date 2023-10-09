@@ -1,0 +1,76 @@
+/* Style the video: 100% width and height to cover the entire window */
+@font-face {
+  font-family: humanst;
+  src: url(Humanst521_Lt_BT_Light.ttf);
+}
+#myVideo {
+  position: fixed;
+  right: 0%;
+  bottom: -6%;
+  min-width: 400px;
+  min-height: 400px;
+}
+#vellios1 {
+  position: fixed;
+  right: -30%;
+  bottom: -5%;
+  min-width: 10%;
+  min-height: 10%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content1 {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20%;
+}
+.btn1 {
+  font-family: humanst;
+  font-size: 20px;
+  background-color: transparent; 
+  color: white; 
+  border: 2px solid #37a67f;
+  width:30%;
+  height: 50px;
+  margin-left: 14.6%
+}
+
+.btn1:hover {
+  font-family: humanst;
+  background-color: #34ebab; 
+  color: black;
+}
+.titl{
+  font-family: humanst;
+  font-size: 60px;
+  padding-left: 17.5%
+}
+.intitle{
+  font-family: humanst;
+  margin-left: 5%;
+  font-size: 85px;
+  color: #ffff;
+}
+.text1{
+  font-family: humanst;
+  margin-left: 5%;
+  font-size: 30px;
+  color: #ffff;
+}
+h1{
+  font-family: humanst;
+  margin-left: 21.5%;
+}
+p{
+  font-family: humanst;
+  margin-left: 24%;
+}
+img {
+  max-width: 40%;
+  height: auto;
+  padding-top: -100px;
+  margin-left: 148px;
+}
